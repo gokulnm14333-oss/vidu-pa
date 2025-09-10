@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body { 
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      color: rgb(235, 228, 228);
+      overflow-x: hidden;
+    }
+
+    /* Background video styling */
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .menu-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(19, 18, 18, 0.85); /* semi-transparent so video is visible */
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(207, 122, 122, 0.7);
+    }
+    .hotel-name {
+      text-align: center;
+      font-style: italic;
+      font-size: 36px;
+      font-weight: bold;
+      color: rgb(197, 183, 183);
+      margin-bottom: 40px;
+    }
+    .tagline {
+      text-align: center;
+      font-style: italic;
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #d1d5db;
+    }
+    .menu-section {
+      margin-bottom: 40px;
+    }
+    .section-title {
+      font-size: xx-large;
+      border-bottom: 2px solid aqua;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+      color: red;
+    }
+    .menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 12px 0;
+      font-size: 18px;
+      background: rgba(42, 42, 42, 0.9);
+      padding: 10px;
+      border-radius: 12px;
+    }
+    .menu-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .menu-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 2px solid #facc15;
+    }
+    .dish-name {
+      font-weight: bold;
+      color: #fbfcf7;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    a:hover {
+      color: #facc15;
+    }
+  </style>  
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop class="bg-video">
+    <source src="video/v4.mp4" type="video/mp4">
+    
+  </video>
+
+  <!-- Menu Container -->
+  <div class="menu-container">
+    <div class="hotel-name">𝔾𝕆𝔻 & 𝔻𝔼𝕄𝕆ℕ</div>
+    <div class="tagline">Heaven meets Hell on your plate</div>
+
+    <div class="menu-section">
+      <div class="section-title">Details</div>
+
+      <div class="menu-item">
+        <div class="menu-left">
+          <img src="image/tea.jpg" alt="Tea">
+          <span class="dish-name"><a href="tea card.html">Heaven Tea</a></span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-left">
+          <img src="image/coffee.jpg" alt="Coffee">
+          <span class="dish-name"><a href="COFFEE1.html">Crazy Coffee</a></span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-left">
+          <img src="image/BREAK FARST.jpg" alt="Breakfast">
+          <span class="dish-name"><a href="BF11.html">Breakfast</a></span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-left">
+          <img src="image/Starters.jpg" alt="Starters">
+          <span class="dish-name"><a href="menu1.html">Starters</a></span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-left">
+          <img src="image/JUICE.jpg" alt="Juice">
+          <span class="dish-name"><a href="JUICE.HTML">Juice</a></span>
+        </div>
+      </div>
+    </div> 
+  </div>
+</body>
+</html>

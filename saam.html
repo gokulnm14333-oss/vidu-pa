@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good & Demon - Hotel Menu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Georgia', serif;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    /* Background video styling */
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Menu card */
+    .menu-card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin: 50px auto;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    }
+
+    .menu-card h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #f5d742;
+    }
+
+    .menu-section {
+      margin: 20px 0;
+    }
+
+    .menu-section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #f5d742;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .menu-item {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+
+    .menu-item span {
+      float: right;
+      color: #f5d742;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay loop muted>
+    <source src="vecteezy_empty-dark-room-modern-futuristic-sci-fi-background_7635216.mp4" type="video/mp4">
+    
+  </video>
+
+  <!-- Menu Card -->
+  <div class="menu-card">
+    <h1>God & Demon - 5 Star Hotel</h1>
+
+    <div class="menu-section">
+      <h2>Starters</h2>
+      <p class="menu-item">Tomato Soup <span>$5</span></p>
+      <p class="menu-item">Spring Rolls <span>$7</span></p>
+      <p class="menu-item">Paneer Tikka <span>$8</span></p>
+    </div>
+
+    <div class="menu-section">
+      <h2>Main Course</h2>
+      <p class="menu-item">Butter Chicken <span>$15</span></p>
+      <p class="menu-item">Veg Biryani <span>$12</span></p>
+      <p class="menu-item">Grilled Fish <span>$18</span></p>
+    </div>
+
+    <div class="menu-section">
+      <h2>Desserts</h2>
+      <p class="menu-item">Gulab Jamun <span>$6</span></p>
+      <p class="menu-item">Chocolate Lava Cake <span>$8</span></p>
+      <p class="menu-item">Ice Cream Sundae <span>$5</span></p>
+    </div>
+  </div>
+
+</body>
+</html>
